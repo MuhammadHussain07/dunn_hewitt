@@ -5,3 +5,10 @@ faiss-cpu
 python-dotenv
 langchain
 pandas
+streamlit
+openai
+python-dotenv
+faiss-cpu
+numpy
+langchain
+langchain_openai  # ✅ Add this line to fix the error
