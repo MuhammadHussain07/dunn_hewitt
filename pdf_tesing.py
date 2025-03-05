@@ -10,7 +10,7 @@ from langchain_openai import OpenAIEmbeddings
 
 # 🔹 Load .env file and OpenAI API key
 load_dotenv()
-openai_api_key = st.secrets("OPENAI_API_KEY")
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 # 🔴 Raise error if API key is missing
 if not openai_api_key:
